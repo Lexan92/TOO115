@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
+    <property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+    <property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:XE</property>
+    <property name="hibernate.connection.username">System</property>
+    <property name="hibernate.connection.password">admin</property>
+    <mapping resource="modelo/pojo/Adjunto.hbm.xml"/>
+    <mapping resource="modelo/pojo/Usuario.hbm.xml"/>
+    <mapping resource="modelo/pojo/CatalogoCategorias.hbm.xml"/>
+    <mapping resource="modelo/pojo/Rol.hbm.xml"/>
+    <mapping resource="modelo/pojo/Denunciante.hbm.xml"/>
+    <mapping resource="modelo/pojo/Municipio.hbm.xml"/>
+    <mapping resource="modelo/pojo/Estado.hbm.xml"/>
+    <mapping resource="modelo/pojo/Departamento.hbm.xml"/>
+    <mapping resource="modelo/pojo/Categoria.hbm.xml"/>
+    <mapping resource="modelo/pojo/Persona.hbm.xml"/>
+    <mapping resource="modelo/pojo/Denuncia.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 10-15-2016 03:51:46 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping auto-import="true">
+    <class name="modelo.pojo.Municipio" table="MUNICIPIO" schema="SYSTEM" optimistic-lock="version">
+        <id name="idMunicipio" type="big_decimal">
+            <column name="ID_MUNICIPIO" precision="22" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="departamento" class="modelo.pojo.Departamento" fetch="select">
+            <column name="ID_DEPARTAMENTO" precision="22" scale="0" />
+        </many-to-one>
+        <property name="nombreMunicipio" type="string">
+            <column name="NOMBRE_MUNICIPIO" length="50" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
