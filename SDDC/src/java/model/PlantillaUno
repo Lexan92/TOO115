@@ -1,0 +1,26 @@
+html>
+	<body>
+		<div align="center">
+			<img src="cid:datojava.png"/>              
+		</div>
+		<div align="center">
+			<font face="Candara" size="6">					
+				Su denuncia ha sido recibida correctamente.
+                                en un plazo a 72 horas se le confirmara el ingreso de su denuncia.
+			</font>
+		</div>
+		<div align="center">
+			<font face="Candara" size="6">
+				<a href="url">sddc.com</a>
+				<br>
+				<br>
+				<img src="cid:gplus.png"/>&nbsp;&nbsp;+DatoJavaBlog
+				<br>
+				<br>
+				<img src="cid:icono.png"/>
+				<br>
+                
+			</font>
+		</div>						
+	</body>
+</html>
