@@ -121,10 +121,10 @@ public class Mail {
     private void setFrom(String mail){ this.from = mail; }
     private String getFrom(){ return this.from; }
     //Contraseña
-    public void setPassword(char[] value){
+    private void setPassword(char[] value){
         this.password = new String(value);
     }
-    public String getPassword(){ return this.password; }
+    private String getPassword(){ return this.password; }
     //destinatarios
     public void setTo(String mails){
         String[] tmp =mails.split(",");

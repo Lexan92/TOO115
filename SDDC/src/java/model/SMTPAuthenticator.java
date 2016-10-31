@@ -1,4 +1,4 @@
-package Enviar_Email_Java_Netbeans;
+package model;
 import javax.mail.Authenticator;
 import javax.mail.PasswordAuthentication;
 /**
